@@ -85,7 +85,7 @@ export const updatePinecone = async (client, indexName, docs) => {
     }
 }
 
-export const queryPineconeVectorStoraAndQueryLLM = async (
+export const queryPineconeVectorStoreAndQueryLLM = async (
     client,
     indexName,
     question,
